@@ -1,0 +1,405 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: aliceblue;
+}
+
+header{
+    background-attachment: scroll;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background-color: #1E90FF;
+    background-size: cover; 
+    align-items: center ;
+    justify-content: space-between;
+}
+header img{
+    width: 100px;
+    height: 80px;
+}
+header h3{
+    margin: 10px 25px;
+    padding: 15px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.logo{
+    margin: 10px 25px;
+    display: flex;
+}
+
+.brojevi a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 25px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #80bfff;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+}
+
+.brojevi a:hover{
+    border-color: lightgray;
+    background-color: lightgrey;
+    color: black;
+}
+.navbar {
+    background-attachment: scroll;
+    margin: 0 auto;
+    width: 100%;
+    height: fit-content;
+    
+}
+.home-image{
+    background-attachment: scroll   ;
+    background-image:url('../images/autihome.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.home-image .home-card{
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    
+}
+
+.home-image h1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 5px 5px white;
+}
+
+.home-card a:link,
+.home-card a:visited{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+
+.home-card a:hover,
+.home-card a:active{
+    background-color: lightgray;
+    color: red;
+}
+.navbar .nav-menu{
+    padding: 20px;
+    margin: auto;
+    text-align: center;        
+}
+
+.navbar .nav-menu .nav-item{
+    display: inline;
+    padding: 20px;
+}
+
+.navbar a{
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover{    
+    color: gray;    
+}
+
+.usluge-container{   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;    
+}
+
+.usluge-container .usluge-kartice{
+    display: flex;
+    padding: 60px;
+    margin: 30px 30px;
+}
+.usluge-container .usluge-kartice .kartica{
+    margin: 30px 30px;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s ease;
+}
+.usluge-container .usluge-kartice .kartica:hover{
+    transform: scale(1.04);
+}
+.usluge-container .usluge-kartice .kartica .k-info{    
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.usluge-container .usluge-kartice .kartica .k-info p{    
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    width: fit-content;
+    font-size: 17px;
+    margin: 10px auto;
+}
+.usluge-container .usluge-kartice .kartica .k-info h3{    
+    background-color: lightyellow;
+    padding: 5px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 10px auto;    
+}
+.usluge-container .usluge-kartice .kartica .k-info a{    
+    background-color: #1E90FF;
+    font-weight: bold;
+    color: black;
+    padding: 8px;   
+    border-radius: 15px;
+    width: fit-content;
+    margin: 10px auto;    
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.usluge-container .usluge-kartice .kartica .k-info a:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+.usluge-container .usluge-kartice .kartica img{
+    width: 400px;
+    height: 300px;  
+    border-top-left-radius: 50px;  
+    border-top-right-radius: 50px;  
+}
+
+.usluge-container2{   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;    
+}
+
+.usluge-container2 .usluge-kartice2{
+    display: flex;
+}
+.usluge-container2 .usluge-kartice2 .kartica{
+    margin: 30px 30px;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s ease;
+}
+.usluge-container2 .usluge-kartice2 .kartica:hover{
+    transform: scale(1.04);
+}
+.usluge-container2 .usluge-kartice2 .kartica .k-info{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.usluge-container2 .usluge-kartice2 .kartica .k-info p{    
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    width: fit-content;
+    font-size: 17px;
+    margin: 10px auto;
+}
+.usluge-container2 .usluge-kartice2 .kartica .k-info h3{    
+    background-color: lightyellow;
+    padding: 5px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 10px auto;    
+}
+.usluge-container2 .usluge-kartice2 .kartica .k-info a{    
+    background-color: #1E90FF;
+    font-weight: bold;
+    color: black;
+    padding: 8px;   
+    border-radius: 15px;
+    width: fit-content;
+    margin: 10px auto;    
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.usluge-container2 .usluge-kartice2 .kartica .k-info a:hover{
+    background-color: blue;
+    color: white;
+}
+.usluge-container2 .usluge-kartice2 .kartica img{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 50px;  
+    border-top-right-radius: 50px;      
+}
+
+.usluge-container3{   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 100px;
+}
+
+.usluge-container3 .usluge-kartice3{
+    display: flex;
+}
+.usluge-container3 .usluge-kartice3 .kartica{
+    margin: 30px 30px;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s ease;
+}
+.usluge-container3 .usluge-kartice3 .kartica:hover{
+    transform: scale(1.04);
+}
+.usluge-container3 .usluge-kartice3 .kartica .k-info{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.usluge-container3 .usluge-kartice3 .kartica .k-info p{    
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    width: fit-content;
+    font-size: 17px;
+    margin: 10px auto;
+}
+.usluge-container3 .usluge-kartice3 .kartica .k-info h3{    
+    background-color: lightyellow;
+    padding: 5px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 10px auto;    
+}
+.usluge-container3 .usluge-kartice3 .kartica .k-info a{    
+    background-color: #1E90FF;
+    font-weight: bold;
+    color: black;
+    padding: 8px;   
+    border-radius: 15px;
+    width: fit-content;
+    margin: 10px auto;    
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.usluge-container3 .usluge-kartice3 .kartica .k-info a:hover{
+    background-color: blue;
+    color: white;
+}
+.usluge-container3 .usluge-kartice3 .kartica img{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 50px;  
+    border-top-right-radius: 50px;      
+}
+
+
+.autic{
+    width: 100%;
+    height: fit-content;
+    position: relative;    
+    
+}
+.autic img{
+    width: 120px;
+    height: 80px;
+    margin-bottom: -18px ;
+    animation: autic 5s infinite ease-in-out;      
+    
+}
+footer{
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-color: #1E90FF;    
+    position: relative;
+}
+
+footer .footer-icon img{
+    width: 260px;
+    height: 140px;
+    margin: auto 30px;      
+}
+
+footer .footer-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;      
+}
+
+footer .footer-links ul li{
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4px 0px;
+      
+}
+footer #h-links{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;    
+}
+footer .footer-links ul li a{  
+    text-align: center;
+    text-decoration: none;
+    color: blue;  
+}
+footer .footer-social a{
+    font-size: 30px;
+    color: black;
+    padding: 15px;
+}
+
+@keyframes autic{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(90vw);
+    }
+    100%{
+        transform: translateX(0vw);
+    }
+}
